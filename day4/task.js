@@ -5,7 +5,6 @@ const input = getInput().split('\n').map(item => item.replace(/-/g, ',').split('
 
 let totalContainPairs = 0;
 
-// 2, 7, 3, 6
 for (let i = 0; i < input.length; i++) {
     const pairOneFirstNumb = input[i][0];
     const pairOneSecondNumb = input[i][1];
