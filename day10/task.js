@@ -32,7 +32,6 @@ for (let i = 0; i < input.length; i++) {
         }
         cycleSkips--;
         cycleCount++;
-        console.log(cycleCount, register);
     }
 
 
