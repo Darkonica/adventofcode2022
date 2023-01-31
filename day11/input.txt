@@ -1,0 +1,76 @@
+{
+    "Monkey 0": {
+        "Starting items": [54, 98, 50, 94, 69, 62, 53, 85],
+        "Operation": "old * 13",
+        "Test": {
+            "Check": "/ 3",
+            "True": "throw to monkey 2",
+            "False": "throw to monkey 1"
+        }
+    },
+    "Monkey 1": {
+        "Starting items": [71, 55, 82],
+        "Operation": "old + 2",
+        "Test": {
+            "Check": "/ 13",
+            "True": "throw to monkey 7",
+            "False": "throw to monkey 2"
+        }
+    },
+    "Monkey 2": {
+        "Starting items": [77, 73, 86, 72, 87],
+        "Operation": "old + 8",
+        "Test": {
+            "Check": "/ 19",
+            "True": "throw to monkey 4",
+            "False": "throw to monkey 7"
+        }
+    },
+    "Monkey 3": {
+        
+        "Starting items": [97, 91],
+        "Operation": "old + 1",
+        "Test": {
+            "Check": "/ 17",
+            "True": "throw to monkey 6",
+            "False": "throw to monkey 5"
+        }
+    },
+    "Monkey 4": {
+
+        "Starting items": [78, 97, 51, 85, 66, 63, 62],
+        "Operation": "old * 17",
+        "Test": {   
+            "Check": "/ 5",
+            "True": "throw to monkey 6",
+            "False": "throw to monkey 3"
+        }
+    },
+    "Monkey 5": {
+        "Starting items": [88],
+        "Operation": "old + 3",
+        "Test": {
+            "Check": "/ 7",
+            "True": "throw to monkey 1",
+            "False": "throw to monkey 0"
+        }
+    },
+    "Monkey 6": {
+        "Starting items": [87, 57, 63, 86, 87, 53],
+        "Operation": "old * old",
+        "Test": {   
+            "Check": "/ 11",
+            "True": "throw to monkey 5",
+            "False": "throw to monkey 0"
+        }
+    },
+    "Monkey 7": {
+        "Starting items": [73, 59, 82, 65],
+        "Operation": "old + 6",
+        "Test": {
+            "Check": "/ 2",
+            "True": "throw to monkey 4",
+            "False": "throw to monkey 3"
+        }
+    }
+}
